@@ -1,6 +1,8 @@
-# [Start Bootstrap - Coming Soon](https://startbootstrap.com/template-overviews/coming-soon/)
+# Coming Soon Quantum Game Landing Page
 
-[Coming Soon](https://startbootstrap.com/template-overviews/coming-soon/) is a simple coming soon theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a background video with a mobile background image fallback.
+- Feel free to modify the index.html and scss files as you please.
+- To launch please use npm install and npm start.
+- Need to find an mp4 bg video.
 
 ## Preview
 
