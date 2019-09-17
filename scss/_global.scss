@@ -9,6 +9,9 @@ body {
   min-height: 35rem;
   position: relative;
   @include body-font;
+  background: url('../img/laser.jpg') no-repeat center #eee;
+  background-size: cover;
+  color: #eee;
 }
 
 h1,
@@ -34,7 +37,8 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url('../img/bg-mobile-fallback.jpg') $primary no-repeat center center scroll;
+    // background: url('../img/bg-mobile-fallback.jpg') $primary no-repeat center center scroll;
+    background: url('../img/laser.jpg') $primary no-repeat center center scroll;
     background-position: cover;
   }
   body video {
@@ -51,4 +55,19 @@ video {
   background-color: $secondary;
   opacity: 0.7;
   z-index: 1;
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 35px !important;
+}
+h2 {
+  font-size: 25px !important;
+}
+
+#gdpr p{
+  font-size: 10px;
+}
+#gdprLegal p{
+  font-size: 10px;
 }

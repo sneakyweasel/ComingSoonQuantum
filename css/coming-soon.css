@@ -14,6 +14,9 @@ body {
   position: relative;
   font-family: 'Source Sans Pro';
   font-weight: 300;
+  background: url("../img/laser.jpg") no-repeat center #eee;
+  background-size: cover;
+  color: #eee;
 }
 
 h1,
@@ -41,7 +44,7 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../img/bg-mobile-fallback.jpg") #000272 no-repeat center center scroll;
+    background: url("../img/laser.jpg") #002E66 no-repeat center center scroll;
     background-position: cover;
   }
   body video {
@@ -60,6 +63,23 @@ video {
   z-index: 1;
 }
 
+h1 {
+  padding-top: 20px;
+  font-size: 35px !important;
+}
+
+h2 {
+  font-size: 25px !important;
+}
+
+#gdpr p {
+  font-size: 10px;
+}
+
+#gdprLegal p {
+  font-size: 10px;
+}
+
 .masthead {
   position: relative;
   overflow: hidden;
@@ -76,7 +96,7 @@ video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 2, 114, 0.8);
+  background-color: rgba(0, 46, 102, 0.8);
   -webkit-transform: skewY(4deg);
   transform: skewY(4deg);
   -webkit-transform-origin: bottom right;
@@ -157,7 +177,7 @@ video {
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(0, 2, 114, 0.8);
+  background-color: rgba(0, 46, 102, 0.8);
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -195,7 +215,7 @@ video {
     width: 4rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: #000272;
+    background-color: #002E66;
   }
 }
 
